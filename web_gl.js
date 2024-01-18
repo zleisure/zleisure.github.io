@@ -21,4 +21,7 @@ function main() {
   gl.clearColor(1.0, 0.0, 0.0, 1.0);
   // Clear the color buffer with specified clear color
   gl.clear(gl.COLOR_BUFFER_BIT);
+
+  console.log("Hello GL");
+  console.log(THREE.Scene);
 }
