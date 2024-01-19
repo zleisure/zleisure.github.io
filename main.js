@@ -48,5 +48,4 @@ function main() {
   // gl.clear(gl.COLOR_BUFFER_BIT);
 
   console.log("Hello GL");
-  console.log(THREE.Scene);
 }
