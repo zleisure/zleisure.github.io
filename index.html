@@ -5,8 +5,9 @@
   <title>zleisure</title>
   <script type="importmap">{
     "imports": {
-      "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
-      "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      "three":"https://unpkg.com/three@0.160.0/build/three.module.js",
+      "three/addons/":"https://unpkg.com/three@0.160.0/examples/jsm/"
+      "GUI":"https://cdn.jsdelivr.net/npm/lil-gui@0.19/+esm";
     }
   }
   </script>
@@ -16,6 +17,7 @@
 </head>
 <body>
 <!--   <canvas id = "gl_canvas" width = "100" height = "100" style="border:1px solid #000000;"></canvas> -->
+  <script type="module" src="./js/ui.js"></script>
   <script type="module" src="./js/main.js"></script>
 </body>
 </html>
